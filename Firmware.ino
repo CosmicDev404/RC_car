@@ -37,10 +37,12 @@ void loop() {
   if (state == 1) { // Forward
     digitalWrite(m1L, HIGH); digitalWrite(m1R, LOW);
     digitalWrite(m2L, HIGH); digitalWrite(m2R, LOW);
+    digitalWrite(leftLED, HIGH); digitalWrite(rightLED, HIGH);
   } 
   else if (state == 2) { // Backward
     digitalWrite(m1L, LOW);  digitalWrite(m1R, HIGH);
     digitalWrite(m2L, LOW);  digitalWrite(m2R, HIGH);
+    digitalWrite(leftLED, HIGH); digitalWrite(rightLED, HIGH);
   } 
   else if (state == 3) { // Left turn
     digitalWrite(m1L, HIGH); digitalWrite(m2R, HIGH);
