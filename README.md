@@ -19,3 +19,6 @@ Note: This sketch uses IRremote library v2.8.0 for simplicity.
 - IR demodulator (component or module)
 - 9V battery
 - Optional: Chasis for the car
+
+### Demo
+A demo of the internal working of curcuit via leds for each pin is given in _"demo.mp4"_
